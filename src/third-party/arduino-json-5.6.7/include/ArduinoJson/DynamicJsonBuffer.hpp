@@ -9,7 +9,7 @@
 
 #include "Internals/BlockJsonBuffer.hpp"
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 // Implements a JsonBuffer with dynamic memory allocation.
 // You are strongly encouraged to consider using StaticJsonBuffer which is much
 // more suitable for embedded systems.

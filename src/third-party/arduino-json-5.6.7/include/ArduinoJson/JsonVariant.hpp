@@ -22,7 +22,7 @@
 #include "TypeTraits/RemoveConst.hpp"
 #include "TypeTraits/RemoveReference.hpp"
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 
 // Forward declarations.
 class JsonArray;

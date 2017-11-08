@@ -9,7 +9,7 @@
 
 #include "JsonWriter.hpp"
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 
 class JsonArray;
 class JsonArraySubscript;

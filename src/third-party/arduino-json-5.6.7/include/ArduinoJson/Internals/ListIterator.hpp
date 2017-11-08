@@ -10,7 +10,7 @@
 #include "ListNode.hpp"
 #include "ListConstIterator.hpp"
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 namespace Internals {
 
 // A read-write forward iterator for List<T>

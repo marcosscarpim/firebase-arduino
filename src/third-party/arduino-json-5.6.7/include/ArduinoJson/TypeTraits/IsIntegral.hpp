@@ -12,7 +12,7 @@
 #include "IsSignedIntegral.hpp"
 #include "IsUnsignedIntegral.hpp"
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 namespace TypeTraits {
 
 // A meta-function that returns true if T is an integral type.

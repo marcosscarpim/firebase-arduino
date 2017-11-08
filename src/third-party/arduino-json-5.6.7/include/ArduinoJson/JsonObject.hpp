@@ -23,7 +23,7 @@
 #define JSON_OBJECT_SIZE(NUMBER_OF_ELEMENTS) \
   (sizeof(JsonObject) + (NUMBER_OF_ELEMENTS) * sizeof(JsonObject::node_type))
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 
 // Forward declarations
 class JsonArray;

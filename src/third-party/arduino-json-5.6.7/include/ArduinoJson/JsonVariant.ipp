@@ -17,7 +17,7 @@
 #include <errno.h>   // for errno
 #include <stdlib.h>  // for strtol, strtod
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 
 inline Internals::JsonInteger JsonVariant::asInteger() const {
   using namespace Internals;

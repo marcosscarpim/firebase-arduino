@@ -12,7 +12,7 @@
 
 #include <float.h>
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 namespace Polyfills {
 template <typename T>
 bool isNaN(T x) {
@@ -48,7 +48,7 @@ bool isInfinity(T x) {
 namespace std {}
 #endif
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 namespace Polyfills {
 
 template <typename T>

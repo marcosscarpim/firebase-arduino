@@ -9,7 +9,7 @@
 
 #include "String.hpp"
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 
 // Represents a key in a JsonObject
 class JsonObjectKey {

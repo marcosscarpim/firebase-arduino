@@ -19,4 +19,4 @@
 #include "ArduinoJson/JsonObject.ipp"
 #include "ArduinoJson/JsonVariant.ipp"
 
-using namespace ArduinoJson;
+using namespace ArduinoJson2;

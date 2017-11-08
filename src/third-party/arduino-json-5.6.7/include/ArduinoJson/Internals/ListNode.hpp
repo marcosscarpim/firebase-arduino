@@ -11,7 +11,7 @@
 
 #include "JsonBufferAllocated.hpp"
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 namespace Internals {
 
 // A node for a singly-linked list.

@@ -20,7 +20,7 @@
 #include "StreamPrintAdapter.hpp"
 #endif
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 namespace Internals {
 
 // Implements all the overloads of printTo() and prettyPrintTo()

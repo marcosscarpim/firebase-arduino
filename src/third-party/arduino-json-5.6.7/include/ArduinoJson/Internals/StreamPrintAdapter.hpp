@@ -15,7 +15,7 @@
 
 #include <ostream>
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 namespace Internals {
 
 class StreamPrintAdapter : public Print {

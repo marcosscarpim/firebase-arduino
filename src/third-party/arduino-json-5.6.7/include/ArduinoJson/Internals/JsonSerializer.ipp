@@ -14,7 +14,7 @@
 #include "../JsonVariant.hpp"
 #include "JsonSerializer.hpp"
 
-inline void ArduinoJson::Internals::JsonSerializer::serialize(
+inline void ArduinoJson2::Internals::JsonSerializer::serialize(
     const JsonArray& array, JsonWriter& writer) {
   writer.beginArray();
 
@@ -31,12 +31,12 @@ inline void ArduinoJson::Internals::JsonSerializer::serialize(
   writer.endArray();
 }
 
-inline void ArduinoJson::Internals::JsonSerializer::serialize(
+inline void ArduinoJson2::Internals::JsonSerializer::serialize(
     const JsonArraySubscript& arraySubscript, JsonWriter& writer) {
   serialize(arraySubscript.as<JsonVariant>(), writer);
 }
 
-inline void ArduinoJson::Internals::JsonSerializer::serialize(
+inline void ArduinoJson2::Internals::JsonSerializer::serialize(
     const JsonObject& object, JsonWriter& writer) {
   writer.beginObject();
 
@@ -56,12 +56,12 @@ inline void ArduinoJson::Internals::JsonSerializer::serialize(
 }
 
 template <typename TKey>
-inline void ArduinoJson::Internals::JsonSerializer::serialize(
+inline void ArduinoJson2::Internals::JsonSerializer::serialize(
     const JsonObjectSubscript<TKey>& objectSubscript, JsonWriter& writer) {
   serialize(objectSubscript.template as<JsonVariant>(), writer);
 }
 
-inline void ArduinoJson::Internals::JsonSerializer::serialize(
+inline void ArduinoJson2::Internals::JsonSerializer::serialize(
     const JsonVariant& variant, JsonWriter& writer) {
   switch (variant._type) {
     case JSON_UNDEFINED:

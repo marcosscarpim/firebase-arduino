@@ -7,7 +7,7 @@
 
 #pragma once
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 namespace Internals {
 inline const char *skipCStyleComment(const char *ptr) {
   ptr += 2;

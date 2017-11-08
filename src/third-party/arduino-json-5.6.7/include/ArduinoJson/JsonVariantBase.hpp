@@ -11,7 +11,7 @@
 #include "JsonObjectKey.hpp"
 #include "Polyfills/attributes.hpp"
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 
 // Forward declarations.
 class JsonArraySubscript;

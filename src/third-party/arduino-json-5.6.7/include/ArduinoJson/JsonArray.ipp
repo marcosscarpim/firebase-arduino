@@ -11,7 +11,7 @@
 #include "JsonArraySubscript.hpp"
 #include "JsonObject.hpp"
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 
 inline JsonVariant::JsonVariant(JsonArray &array) {
   if (array.success()) {

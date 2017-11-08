@@ -10,7 +10,7 @@
 #include "../JsonBuffer.hpp"
 #include "../JsonVariant.hpp"
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 namespace Internals {
 
 // Parse JSON string to create JsonArrays and JsonObjects

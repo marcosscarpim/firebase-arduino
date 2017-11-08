@@ -10,7 +10,7 @@
 #include "JsonObjectKey.hpp"
 #include "JsonVariant.hpp"
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 
 // A key value pair for JsonObject.
 struct JsonPair {

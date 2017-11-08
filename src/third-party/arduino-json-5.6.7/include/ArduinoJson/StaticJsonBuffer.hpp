@@ -19,7 +19,7 @@
 #pragma GCC diagnostic ignored "-Wnon-virtual-dtor"
 #endif
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 
 // Implements a JsonBuffer with fixed memory allocation.
 // The template paramenter CAPACITY specifies the capacity of the buffer in

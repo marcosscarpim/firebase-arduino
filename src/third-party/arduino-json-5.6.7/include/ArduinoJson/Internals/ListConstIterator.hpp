@@ -9,7 +9,7 @@
 
 #include "ListNode.hpp"
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 namespace Internals {
 
 // A read-only forward itertor for List<T>

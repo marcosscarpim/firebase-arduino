@@ -15,7 +15,7 @@
 #pragma warning(disable : 4522)
 #endif
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 class JsonArraySubscript : public JsonVariantBase<JsonArraySubscript> {
  public:
   FORCE_INLINE JsonArraySubscript(JsonArray& array, size_t index)

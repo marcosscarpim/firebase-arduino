@@ -11,7 +11,7 @@
 #include "ListConstIterator.hpp"
 #include "ListIterator.hpp"
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 namespace Internals {
 
 // A singly linked list of T.

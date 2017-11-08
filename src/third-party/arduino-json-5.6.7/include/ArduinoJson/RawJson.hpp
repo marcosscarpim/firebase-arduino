@@ -7,7 +7,7 @@
 
 #pragma once
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 
 // A special type of data that can be used to insert pregenerated JSON portions.
 class RawJson {

@@ -9,7 +9,7 @@
 
 #include "../Print.hpp"
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 namespace Internals {
 
 // A Print implementation that allows to write in a char[]

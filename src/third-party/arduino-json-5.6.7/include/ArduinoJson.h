@@ -6,4 +6,4 @@
 // If you like this project, please add a star!
 
 #include "ArduinoJson.hpp"
-using namespace ArduinoJson;
+using namespace ArduinoJson2;

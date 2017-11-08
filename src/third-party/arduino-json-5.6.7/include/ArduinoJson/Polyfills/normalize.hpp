@@ -7,7 +7,7 @@
 
 #pragma once
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 namespace Polyfills {
 
 #ifdef ARDUINO

@@ -12,7 +12,7 @@
 #include <stddef.h>
 #include <stdint.h>
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 // This class reproduces Arduino's Print class
 class Print {
  public:

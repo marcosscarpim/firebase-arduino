@@ -10,7 +10,7 @@
 #include "JsonFloat.hpp"
 #include "JsonInteger.hpp"
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 
 // Forward declarations
 class JsonArray;

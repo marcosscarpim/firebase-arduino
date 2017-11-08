@@ -17,7 +17,7 @@
 
 #include <string>
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 typedef std::string String;
 }
 

@@ -9,7 +9,7 @@
 
 #include "../JsonBuffer.hpp"
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 namespace Internals {
 
 class JsonBufferAllocated {

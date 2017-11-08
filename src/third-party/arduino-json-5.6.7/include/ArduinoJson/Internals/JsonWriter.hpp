@@ -15,7 +15,7 @@
 #include "JsonFloat.hpp"
 #include "JsonInteger.hpp"
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 namespace Internals {
 
 // Writes the JSON tokens to a Print implementation

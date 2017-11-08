@@ -10,7 +10,7 @@
 #include "Comments.hpp"
 #include "JsonParser.hpp"
 
-inline bool ArduinoJson::Internals::JsonParser::skip(char charToSkip) {
+inline bool ArduinoJson2::Internals::JsonParser::skip(char charToSkip) {
   const char *ptr = skipSpacesAndComments(_readPtr);
   if (*ptr != charToSkip) return false;
   ptr++;
@@ -18,7 +18,7 @@ inline bool ArduinoJson::Internals::JsonParser::skip(char charToSkip) {
   return true;
 }
 
-inline bool ArduinoJson::Internals::JsonParser::parseAnythingTo(
+inline bool ArduinoJson2::Internals::JsonParser::parseAnythingTo(
     JsonVariant *destination) {
   if (_nestingLimit == 0) return false;
   _nestingLimit--;
@@ -27,7 +27,7 @@ inline bool ArduinoJson::Internals::JsonParser::parseAnythingTo(
   return success;
 }
 
-inline bool ArduinoJson::Internals::JsonParser::parseAnythingToUnsafe(
+inline bool ArduinoJson2::Internals::JsonParser::parseAnythingToUnsafe(
     JsonVariant *destination) {
   _readPtr = skipSpacesAndComments(_readPtr);
 
@@ -43,8 +43,8 @@ inline bool ArduinoJson::Internals::JsonParser::parseAnythingToUnsafe(
   }
 }
 
-inline ArduinoJson::JsonArray &
-ArduinoJson::Internals::JsonParser::parseArray() {
+inline ArduinoJson2::JsonArray &
+ArduinoJson2::Internals::JsonParser::parseArray() {
   // Create an empty array
   JsonArray &array = _buffer->createArray();
 
@@ -75,7 +75,7 @@ ERROR_NO_MEMORY:
   return JsonArray::invalid();
 }
 
-inline bool ArduinoJson::Internals::JsonParser::parseArrayTo(
+inline bool ArduinoJson2::Internals::JsonParser::parseArrayTo(
     JsonVariant *destination) {
   JsonArray &array = parseArray();
   if (!array.success()) return false;
@@ -84,8 +84,8 @@ inline bool ArduinoJson::Internals::JsonParser::parseArrayTo(
   return true;
 }
 
-inline ArduinoJson::JsonObject &
-ArduinoJson::Internals::JsonParser::parseObject() {
+inline ArduinoJson2::JsonObject &
+ArduinoJson2::Internals::JsonParser::parseObject() {
   // Create an empty object
   JsonObject &object = _buffer->createObject();
 
@@ -123,7 +123,7 @@ ERROR_NO_MEMORY:
   return JsonObject::invalid();
 }
 
-inline bool ArduinoJson::Internals::JsonParser::parseObjectTo(
+inline bool ArduinoJson2::Internals::JsonParser::parseObjectTo(
     JsonVariant *destination) {
   JsonObject &object = parseObject();
   if (!object.success()) return false;
@@ -132,7 +132,7 @@ inline bool ArduinoJson::Internals::JsonParser::parseObjectTo(
   return true;
 }
 
-inline const char *ArduinoJson::Internals::JsonParser::parseString() {
+inline const char *ArduinoJson2::Internals::JsonParser::parseString() {
   const char *readPtr = _readPtr;
   char *writePtr = _writePtr;
 
@@ -177,7 +177,7 @@ inline const char *ArduinoJson::Internals::JsonParser::parseString() {
   return startPtr;
 }
 
-inline bool ArduinoJson::Internals::JsonParser::parseStringTo(
+inline bool ArduinoJson2::Internals::JsonParser::parseStringTo(
     JsonVariant *destination) {
   bool hasQuotes = isQuote(_readPtr[0]);
   const char *value = parseString();

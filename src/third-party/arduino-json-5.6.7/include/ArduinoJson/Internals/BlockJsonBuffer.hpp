@@ -21,7 +21,7 @@
 #pragma GCC diagnostic ignored "-Wnon-virtual-dtor"
 #endif
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 namespace Internals {
 class DefaultAllocator {
  public:

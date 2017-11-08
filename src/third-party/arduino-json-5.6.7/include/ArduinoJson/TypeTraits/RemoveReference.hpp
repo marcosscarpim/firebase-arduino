@@ -7,7 +7,7 @@
 
 #pragma once
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 namespace TypeTraits {
 
 // A meta-function that return the type T without the reference modifier.

@@ -9,7 +9,7 @@
 
 #include <stdlib.h>
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 namespace Internals {
 template <typename TFloat>
 TFloat parse(const char *);

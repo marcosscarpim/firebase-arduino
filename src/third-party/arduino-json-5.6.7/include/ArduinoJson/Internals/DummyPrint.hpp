@@ -9,7 +9,7 @@
 
 #include "../Print.hpp"
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 namespace Internals {
 
 // A dummy Print implementation used in JsonPrintable::measureLength()

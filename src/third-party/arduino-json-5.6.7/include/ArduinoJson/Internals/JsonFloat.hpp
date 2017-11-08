@@ -9,7 +9,7 @@
 
 #include "../Configuration.hpp"
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 namespace Internals {
 
 #if ARDUINOJSON_USE_DOUBLE

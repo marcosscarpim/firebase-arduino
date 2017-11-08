@@ -9,7 +9,7 @@
 
 #include "IndentedPrint.hpp"
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 namespace Internals {
 
 // Converts a compact JSON string into an indented one.

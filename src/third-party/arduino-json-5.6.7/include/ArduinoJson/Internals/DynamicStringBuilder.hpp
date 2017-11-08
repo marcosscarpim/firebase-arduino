@@ -10,7 +10,7 @@
 #include "../Print.hpp"
 #include "../String.hpp"
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 namespace Internals {
 
 // A Print implementation that allows to write in a String

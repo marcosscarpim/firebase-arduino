@@ -16,7 +16,7 @@
 #pragma warning(disable : 4522)
 #endif
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 
 template <typename TKey>
 class JsonObjectSubscript : public JsonVariantBase<JsonObjectSubscript<TKey> > {

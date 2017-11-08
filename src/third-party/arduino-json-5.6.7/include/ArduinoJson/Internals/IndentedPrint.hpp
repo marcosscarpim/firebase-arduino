@@ -9,7 +9,7 @@
 
 #include "../Print.hpp"
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 namespace Internals {
 
 // Decorator on top of Print to allow indented output.

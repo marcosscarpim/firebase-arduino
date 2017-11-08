@@ -11,7 +11,7 @@
 #include "JsonObject.hpp"
 #include "JsonObjectSubscript.hpp"
 
-namespace ArduinoJson {
+namespace ArduinoJson2 {
 
 template <>
 inline bool JsonObject::setNodeValue(node_type *node, String &value) {
